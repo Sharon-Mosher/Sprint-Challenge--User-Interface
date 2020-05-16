@@ -70,6 +70,34 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.header-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content:center;
+
+  }
+  .header-content .image1{
+    width: 20%;
+  }
+    
+  .header-content nav{
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header-content nav a{
+    color: black;
+  }
+  .header-content .image2{
+    width: 100%;
+  }
+
+}
 
 .top-content {
     display: flex;
