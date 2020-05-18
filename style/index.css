@@ -276,5 +276,19 @@ footer nav a {
     justify-content: space-around;
     align-items: center;
     align-content:center;
- }
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+.header-content nav{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-content .image2{
+    width: 100%;
 }
