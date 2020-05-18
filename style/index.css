@@ -75,33 +75,33 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: stretch;
     align-items: center;
-    align-content:center;
-    padding: 1rem;
-    margin: 1rem;
-
+    align-content: space-around;
   }
   .header-content .image1{
     width: 20%;
-    padding: 1rem;
-    margin: 1rem;
+    margin-bottom: 2em;
   }
-    
+
   .header-content nav{
-    width: 75%;
+    width: 80%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
   }
   .header-content nav a{
     color: black;
     text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em;
+
   }
   .header-content .image2{
     width: 100%;
-    margin-bottom: 1rem;
-    padding: 1rem;
+    margin-bottom: 2em;
   }
 
 .top-content {
