@@ -1,4 +1,5 @@
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+   semantic html is a coding language that uses meaningful elements such as sections, and lists
    
 2. What are the 4 areas of the box model?
    content, padding, border, margin
